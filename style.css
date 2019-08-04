@@ -1,0 +1,579 @@
+html{
+	/* background-color: rgba(245, 245, 245, 1); */
+}
+body {
+	max-width: 1200px;
+	min-width: 800px;
+	margin: 0 auto;;
+    font-family: Montserrat, sans-serif;
+	padding: 0 20px;
+}
+
+.top{
+    font-family: Roboto, Lato, sans-serif;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+ul {
+	padding: 0;
+}
+
+.left-top {
+	font-size: 12px;
+	color: rgba(0, 0, 0, .6);
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0 10px;
+
+}
+
+.right-top {
+    font-size: 14px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.cars-top {
+	background: #fff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .05);
+    padding: 8px 0;
+    display: flex;
+	justify-content: space-between;
+}
+
+.logotype {
+    padding: 8px 0 0 0px;
+}
+
+.top-menu {
+	display: inline;
+	padding: 20px;
+}
+
+.car-type {
+	display: flex;
+}
+.car-type li {
+	margin: 0 10px;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.name-auto {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.name-auto-left {
+	padding: 10px;
+	margin-right: 0 0 30px;
+}
+
+.name-auto img, h1 {
+	font-size: 48px;
+    line-height: 25px;
+    font-weight: 700;
+    white-space: nowrap;
+    margin-left: 10px;
+
+}
+
+.name-auto-right {
+	background-image: url(https://altera-auto.ru/local/templates/altera/img/promo-box.svg);
+	line-height: 48px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFF;
+    width: 300px;
+    text-align: center;
+}
+
+h3 {
+	font-weight: 500;
+    line-height: 48px;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.about-auto {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-top: 35px;
+	font-size: 15px;
+}
+
+.about-auto a {
+	min-height: 32px;
+    text-decoration: underline;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.about-auto img {
+	margin: 20px 10px;
+}
+
+.car-color {
+display: flex;
+align-items: flex-start;
+}
+
+.car-color img{
+	max-height: 272px;
+	margin: 30px;
+}
+.auto-color {
+	margin-top: 20px;
+}
+.auto-color {
+	margin-bottom: 20px;
+}
+
+.prices {
+  margin: 15px 40px;
+  width: 486px;
+  display: flex;
+  flex-direction: column;
+  line-height: 41px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.complect {
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: rgba(245, 245, 245, 1);
+  color: #333333;
+}
+
+.indicator li{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	justify-content: space-around;
+	font-size: 14px;
+}
+
+.indicator img {
+	margin: 0 0 0 30px;
+}
+
+input {
+	background: #FFF;
+    border: 2px solid #777;
+    border-radius: 4px;
+    line-height: 2.5rem;
+    padding: 0 3%;
+	color: #000;
+	font-size: 16px !important;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.booking {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0; 
+}
+
+.btn-red {
+	background: #F62E2E;
+    box-shadow: 0 8px 16px rgba(246, 46, 46, .5), 0 4px 0 #DB2929;
+    color: #fff;
+    font-weight: 500;
+	font-size: 16px;
+	margin: 0 30px 0 0;
+	width: 220px;
+	height: 45px;
+	border-radius: 8px;
+    border: 1px solid transparent;
+}
+
+.btn-grey {
+    background: grey;
+    box-shadow: 0 4px 0 #666;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+	width: 220px;
+	height: 45px;
+	border-radius: 8px;
+    border: 1px solid transparent;
+}
+
+.winter {
+	height: 300px;
+	width: 100%;
+	background: url(https://altera-auto.ru/local/templates/altera/img/bg-catalog2.jpg) center top no-repeat;
+	display: flex;
+	align-items: center;
+}
+
+.winter .winter-left {
+	margin-left: 15px;
+}
+
+.winter-title {
+text-transform: uppercase;
+margin: 20px 0;
+color: #666;
+font-weight: bold;
+}
+
+.winter-action {
+	text-transform: uppercase;
+    color: #c50000;
+    font-weight: bold;
+    margin: 20px 0 !important;
+}
+
+.winter-phone {
+	display: flex;
+	flex-direction: column;
+}
+.winter-phone a {
+	margin-top: 15px;
+}
+
+.form-winter {
+	width: 500px;
+	height: 238px;
+	display: block;
+	margin: 20px;
+	background: rgba(255, 255, 255, 0.863);
+	padding: 20px; 
+}
+
+.form-winter-title {
+font-weight: bold;
+text-transform: uppercase;
+font-size: 20px;
+text-align: center;
+}
+
+.wrapper-title {
+	font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.mt-luxury-15, .mt-royal-15, .sat-royal-20 {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.mt-luxury-15, .mt-royal-15, .sat-royal-20 {
+	background: rgba(0, 0, 0, .02);
+	border-radius: 8px;
+    height: 44px;
+    transition: .2s all;
+    padding: 10px 0 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.mt-luxury-15:hover,
+.mt-royal-15:hover,
+.sat-royal-20:hover {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+	background: rgb(255, 255, 255);
+	transition-delay:0.1s;
+}
+
+.mt-royal-15 {
+	margin-bottom: 20px;
+}
+
+.btn {
+	width: 160px;
+	background: rgba(0, 0, 0, .04);
+    color: #000;
+    display: inline-block;
+    text-align: center;
+    transition: .3s all;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid transparent;
+	font-size: 16px;
+	height: 42px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-yellow {
+	background: #FFCC47;
+}
+
+.calculator {
+	padding: 50px 0;
+}
+
+.wrapper-prices {
+
+}
+
+.price-border {
+	border: 2px solid #FFCC47;
+    line-height: 28px;
+    font-size: 24px;
+    margin-right: 32px;
+	padding: 16px 24px 18px;
+	width: 160px;
+}
+.price-title { 
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.price-title-spec {
+	font-weight: 500;
+    border-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    line-height: 28px;
+    font-size: 24px;
+    margin-right: 32px;
+    padding: 16px 24px 18px;
+}
+
+.calculator {
+	padding: 30px 0;
+}
+
+.calculator-options {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.calculator-block {
+    background: #FFF;
+    border: 1px solid rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 10px 10px 44px;
+    margin-bottom: 20px;
+    position: relative;
+    transition: .3s all;
+    height: 60px;
+	width: 282px;
+}
+
+.block-check {
+	position: absolute;
+    left: 10px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    top: calc(50% - 12px);
+    background: center no-repeat #fff;
+}
+
+.block-title {
+	font-size: 16px;
+    line-height: 16px;
+}
+
+small {
+
+}
+
+.block-price {
+	font-weight: 700;
+    line-height: 14px;
+    font-size: 14px;
+    letter-spacing: .02em;
+}
+
+.calculator-benefit {
+	display: flex;
+	flex-grow: 4;
+	justify-content: space-between;
+	margin: 25px 0;
+}
+
+.calculator-your-benefit {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 44px;
+	display: flex;
+}
+
+.calculator-your-benefit-price {
+	margin-left: 40px;
+	font-weight: 700;
+    color: #F62E2E;
+}
+
+.calculator-your-benefit-btn {
+	font-weight: 600;
+    line-height: 42px;
+	width: 282px;
+	color: white;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.calculator-your-benefit-btn:hover {
+	background: #DB2929;
+	transition: .2s;
+}
+
+h3-title {
+	font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 32px;
+    font-weight: 700;
+}
+
+p {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 300;
+}
+
+.compare-complectations {
+	display: flex;
+}
+
+.block-300x50 {
+	width: 300px;
+	height: 50px;
+	background: #FFCC47;
+	font-size: 16px;
+    font-weight: 300;
+	line-height: 50px;
+	text-align: center;
+}
+
+.compare-empty {
+	background: none;
+}
+
+
+.tires {
+	width: 100%;
+	height: 120px;
+	background: linear-gradient(90deg, #FF6543 0, #FFCC47 100%);
+	display: flex;
+	justify-content: space-around;
+	align-items: center; /*выравнивание контента по высоте!!!*/
+	color: white;
+}
+
+.tires-block {
+	line-height: 18px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.last {
+	/*background: url(https://altera-auto.ru/local/templates/altera/img/box-gradient.svg) right top no-repeat;*/
+}
+
+.technical {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.technical-item {
+	
+}
+
+.technical-item-title {
+	font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, .8);
+    width: 588px;
+}
+
+.technical-item-title-block {
+	margin-bottom: 10px;
+	line-height: 20px;
+    padding: 20px 24px;
+    cursor: pointer;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-plus {
+	font-size: 32px;
+	color: rgba(0, 0, 0, .4);
+}
+
+.block-info-table-head {
+	display: flex;
+
+}
+
+.block-info-table-head-left {
+	background: #000;
+	color: #fff;
+	width: 244px;
+	height: 50px;
+	border-right: 1px solid #E5E5E5;
+}
+
+.block-info-table-head-right {
+	background: #000;
+	color: #fff;
+	width: 243px;
+	border-right: 1px solid #E5E5E5;
+}
+
+.block-info-table-body {
+	display: flex;
+
+}
+
+.equip {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;	
+}
+
+.equip-item {
+	width: 30%;
+}
+
+.equip-item img{
+	width: 383px;
+}
+
+.equip-item li {
+	margin: 0 0 20px 20px;
+}
+
+.inMenu {
+	display: none;
+}
+
+.divav {
+	display: none;
+}
